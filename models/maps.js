@@ -9,4 +9,4 @@ const mapSchema = new Schema({
     }
 });
 
-module.exports = mongoose.model("Showtunes", songSchema)
+module.exports = mongoose.model("dm-maps", mapsSchema)
